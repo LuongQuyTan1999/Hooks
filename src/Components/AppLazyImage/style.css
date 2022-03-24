@@ -1,0 +1,11 @@
+.lazy-image {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1 ease-in-out;
+  -moz-transition: opacity 1 ease-in-out;
+  border-radius: 8px;
+}
+
+.lazy-image.opacity {
+  opacity: 1;
+}
